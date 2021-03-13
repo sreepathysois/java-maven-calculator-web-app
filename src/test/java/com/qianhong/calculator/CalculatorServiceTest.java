@@ -15,12 +15,12 @@ public class CalculatorServiceTest {
 
     @Test
     public void testAdd() {
-        assertEquals(34, new CalculatorService().Add(8, 26).getResult());
+        assertEquals(35, new CalculatorService().Add(8, 26).getResult());
     }
 
     @Test
     public void testSub() {
-        assertEquals(4, new CalculatorService().Sub(12, 8).getResult());
+        assertEquals(41, new CalculatorService().Sub(12, 8).getResult());
     }
 
     @Test
